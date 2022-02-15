@@ -1,0 +1,10 @@
+C:\Users\grace\Documents\GitHub\interestingmovementreally-Grace-Anders\InterestingMovementsReally\MonogameLibrary\obj\Debug\netcoreapp3.1\MonogameLibrary.csproj.AssemblyReference.cache
+C:\Users\grace\Documents\GitHub\interestingmovementreally-Grace-Anders\InterestingMovementsReally\MonogameLibrary\obj\Debug\netcoreapp3.1\MonogameLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grace\Documents\GitHub\interestingmovementreally-Grace-Anders\InterestingMovementsReally\MonogameLibrary\obj\Debug\netcoreapp3.1\MonogameLibrary.AssemblyInfoInputs.cache
+C:\Users\grace\Documents\GitHub\interestingmovementreally-Grace-Anders\InterestingMovementsReally\MonogameLibrary\obj\Debug\netcoreapp3.1\MonogameLibrary.AssemblyInfo.cs
+C:\Users\grace\Documents\GitHub\interestingmovementreally-Grace-Anders\InterestingMovementsReally\MonogameLibrary\obj\Debug\netcoreapp3.1\MonogameLibrary.csproj.CoreCompileInputs.cache
+C:\Users\grace\Documents\GitHub\interestingmovementreally-Grace-Anders\InterestingMovementsReally\MonogameLibrary\bin\Debug\netcoreapp3.1\MonogameLibrary.deps.json
+C:\Users\grace\Documents\GitHub\interestingmovementreally-Grace-Anders\InterestingMovementsReally\MonogameLibrary\bin\Debug\netcoreapp3.1\MonogameLibrary.dll
+C:\Users\grace\Documents\GitHub\interestingmovementreally-Grace-Anders\InterestingMovementsReally\MonogameLibrary\bin\Debug\netcoreapp3.1\MonogameLibrary.pdb
+C:\Users\grace\Documents\GitHub\interestingmovementreally-Grace-Anders\InterestingMovementsReally\MonogameLibrary\obj\Debug\netcoreapp3.1\MonogameLibrary.dll
+C:\Users\grace\Documents\GitHub\interestingmovementreally-Grace-Anders\InterestingMovementsReally\MonogameLibrary\obj\Debug\netcoreapp3.1\MonogameLibrary.pdb

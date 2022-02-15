@@ -6,14 +6,23 @@ namespace InterestingMovementsReally
 {
     public class Game1 : Game
     {
-        private GraphicsDeviceManager _graphics;
-        private SpriteBatch _spriteBatch;
+        private GraphicsDeviceManager graphics;
+        private SpriteBatch spriteBatch;
+
+        Player Player;
+
+        //public SpriteFont font;
 
         public Game1()
         {
-            _graphics = new GraphicsDeviceManager(this);
+            graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+
+            graphics.PreferredBackBufferHeight = 720;
+            graphics.PreferredBackBufferWidth = 1280;
+
+            Player = new Player(this) { TextureName = "LittleGuy" };
         }
 
         protected override void Initialize()
@@ -25,9 +34,11 @@ namespace InterestingMovementsReally
 
         protected override void LoadContent()
         {
-            _spriteBatch = new SpriteBatch(GraphicsDevice);
+            spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+            Player.LoadContent();
+
+            //font = Content.Load<SpriteFont>("Arial");
         }
 
         protected override void Update(GameTime gameTime)
@@ -35,16 +46,22 @@ namespace InterestingMovementsReally
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // TODO: Add your update logic here
+            Player.Update(gameTime);
 
             base.Update(gameTime);
         }
 
+
+
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Gray);
 
-            // TODO: Add your drawing code here
+            spriteBatch.Begin();
+
+            Player.Draw(spriteBatch);
+
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
